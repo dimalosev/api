@@ -1,0 +1,44 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1170px;
+    max-height: 70px;
+    margin: 0 auto;
+    background-color: #0073d9;
+}
+
+.header img {
+    width: 150px;
+    height: 70px;
+    margin-left: 40px;
+    z-index: 1;
+}
+
+.header a {
+    outline-style: none;
+}
+
+.register_button {
+    margin-right: 40px;
+}
+
+.register_button span:first-child {
+    margin-right: 15px;
+}
+
+.register_button span {
+    color: white;
+    line-height: 20px;
+    min-width: 40px;
+}
+
+.register_button a {
+    text-decoration: none;
+}
+
+.register_button span:hover {
+    cursor: pointer;
+    color: #88c9ff;
+    transition: all .5s;
+}

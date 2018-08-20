@@ -1,4 +1,20 @@
+.list_container {
+    margin: 0;
+    background-color: #9cc7e6;
+}
+
 .list_item {
     display: flex;
-    background-color: lightblue;
+}
+
+.list_item img {
+    border-radius: 1px;
+    border: 1px solid #355c8b;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
 }

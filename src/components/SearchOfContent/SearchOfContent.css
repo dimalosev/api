@@ -7,11 +7,19 @@
 .search_container input {
     line-height: 20px;
     width: 400px;
-    border-radius: 3px;
     border: none;
     padding: 5px;
 }
 
 .search_container button {
     line-height: 20px;
+    width: 80px;
+    border: none;
+    color: white;
+    background-color: #6d9eff;
+    cursor: pointer;
+}
+
+.search_container button:hover {
+    background-color: #039cd9;
 }
